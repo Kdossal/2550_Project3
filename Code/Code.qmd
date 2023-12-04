@@ -573,6 +573,7 @@ print(ggplot_hist)
 ```
 
 ```{r}
+# BIASES
 brier_women_true <-mean(nh_brier_risks_women)
 brier_men_true <- mean(nh_brier_risks_men)
 
